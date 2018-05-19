@@ -23,7 +23,7 @@ var svg = d3.select("body")
     .attr("transform", "translate(" + ((-2.5) * w) + "," + (margin.top + 50) + ")");
 
 var colorValues = d3.scaleSequential(d3.interpolateReds);
-var colorIncomes = d3.scaleSequential(d3.interpolateRainbow);
+var colorIncomes = d3.scaleSequential(d3.interpolateBlues);
 var color = colorValues;
 var changed = 0;
 
